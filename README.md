@@ -20,8 +20,8 @@ This project predicts **IMDb movie ratings** using data fetched from a **RapidAP
    cd Movie-Rating-Predictor```
 
 #Install dependencies
-```bash
-pip install -r requirements.txt```
+
+pip install -r requirements.txt
 
 # RapidAPI Key 
 
