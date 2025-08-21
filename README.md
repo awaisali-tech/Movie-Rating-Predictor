@@ -19,9 +19,6 @@ This project predicts IMDb movie ratings using data fetched from a RapidAPI endp
 - Preprocessing challenges (e.g., NaN values, grouping by IMDb ID).
 - Model performance limited by small dataset; working on more data for positive R2.
 
-## Video Walkthrough
-Watch my project explanation: [project_walkthrough.mp4](project_walkthrough.mp4) (or upload to YouTube and link here).
-
 ## Files
 - `data_from_api.py`: Fetches movie data.
 - `preprocess.py`: Cleans raw JSON to CSV.
