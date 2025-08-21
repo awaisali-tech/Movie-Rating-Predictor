@@ -14,15 +14,25 @@ This project predicts **IMDb movie ratings** using data fetched from a **RapidAP
 
 ## ⚙️ Installation  
 
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/awaisali-tech/Movie-Rating-Predictor.git
-   cd Movie-Rating-Predictor```
+## ⚙️ Installation
 
-Install dependencies (create requirements.txt with pandas, numpy, sklearn, matplotlib, requests):
+1) (Optional) create & activate a virtual environment
+
+```bash
+python -m venv .venv
+# Windows PowerShell
+. .venv/Scripts/Activate.ps1
+# (cmd)
+# .venv\Scripts\activate.bat
+# (Linux/macOS)
+# source .venv/bin/activate
+
+Upgrade pip and install dependencies
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 
-
+Add your RapidAPI key in a .env file
+RAPIDAPI_KEY="9dd01a5592mshc2deb8ada4c83dep157468jsn1f6ffd1c60c4"
 
 
 Run the pipeline step by step:
