@@ -19,13 +19,11 @@ This project predicts **IMDb movie ratings** using data fetched from a **RapidAP
    git clone https://github.com/awaisali-tech/Movie-Rating-Predictor.git
    cd Movie-Rating-Predictor```
 
-#Install dependencies
+Install dependencies (create requirements.txt with pandas, numpy, sklearn, matplotlib, requests):
 pip install -r requirements.txt
 
 
-Add your RapidAPI Key inside a .env file:
 
-RAPIDAPI_KEY=your_api_key_here
 
 Run the pipeline step by step:
 # 1. Fetch data from API
@@ -47,7 +45,7 @@ movies_cleaned_final.csv → Final dataset used for training
 rating_hist.png, rating_vs_year.png → Visualizations
 
 ### Histogram of IMDb Ratings:
-<img width="1142" height="721" alt="image" src="https://github.com/user-attachments/assets/36847399-e764-47d2-b13b-a689addd2f9a" />
+<img src="rating_hist.png" alt="Histogram">
 
 ## 💡 Lessons Learned
 
