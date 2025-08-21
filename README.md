@@ -14,26 +14,18 @@ This project predicts **IMDb movie ratings** using data fetched from a **RapidAP
 
 ## ⚙️ Installation  
 
-## ⚙️ Installation
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/awaisali-tech/Movie-Rating-Predictor.git
+   cd Movie-Rating-Predictor```
 
-1) (Optional) create & activate a virtual environment
-
+#Install dependencies
 ```bash
-python -m venv .venv
-# Windows PowerShell
-. .venv/Scripts/Activate.ps1
-# (cmd)
-# .venv\Scripts\activate.bat
-# (Linux/macOS)
-# source .venv/bin/activate
+pip install -r requirements.txt```
 
-Upgrade pip and install dependencies
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+# RapidAPI Key 
 
-Add your RapidAPI key in a .env file
 RAPIDAPI_KEY="9dd01a5592mshc2deb8ada4c83dep157468jsn1f6ffd1c60c4"
-
 
 Run the pipeline step by step:
 # 1. Fetch data from API
@@ -55,7 +47,7 @@ movies_cleaned_final.csv → Final dataset used for training
 rating_hist.png, rating_vs_year.png → Visualizations
 
 ### Histogram of IMDb Ratings:
-<img src="rating_hist.png" alt="Histogram">
+<img width="1142" height="721" alt="image" src="https://github.com/user-attachments/assets/36847399-e764-47d2-b13b-a689addd2f9a" />
 
 ## 💡 Lessons Learned
 
@@ -89,7 +81,7 @@ Improve visualizations & experiment with deep learning models.
 
 
 ## 📬 Contact  
-If you have suggestions, feel free to open an [issue](../../issues) or reach out!  
+If you have suggestions, feel free to open an [issue](../../issues) or reach out! 
 
 
 
